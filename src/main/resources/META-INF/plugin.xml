@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.example.wsplugin</id>
+    <name>WebSocket Relay Plugin</name>
+    <vendor email="devggbb@gmail.com">You</vendor>
+
+    <description>
+        Запускает WebSocket и HTTP серверы, пересылающие сообщения.
+    </description>
+
+    <actions>
+        <action id="ToggleWebSocketServer"
+                class="com.example.wsplugin.ToggleServerAction"
+                text="PHP GGBB Debug Server"
+                description="Start/Stop PHP GGBB Debug Server">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
