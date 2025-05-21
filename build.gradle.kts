@@ -47,7 +47,7 @@ dependencies {
         testFramework(TestFrameworkType.Platform)
     }
 
-    implementation("org.java-websocket:Java-WebSocket:1.5.3")
+    implementation("org.java-websocket:Java-WebSocket:1.6.0")
 }
 
 // Configure IntelliJ Platform Gradle Plugin - read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-extension.html
